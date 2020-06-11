@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <style media="screen">
+
+      *{
+        margin:0;
+        padding:0;
+      }
+
+      ul{
+        list-style: none;
+      }
+
+      h3{
+        margin: 20px 0 0 50px;
+      }
+
+      #mem_form{
+        width:500px;
+        margin: 10px 0 0 50px;
+        font-family: "돋움";
+        font-size: 12px;
+        color: #444444;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        border-top: solid 1px #cccccc;
+        border-bottom: solid 1px #cccccc;
+      }
+
+      .cols li{
+        display: inline-block;
+        margin-top: 5px;
+      }
+
+      .cols li.col1{
+        width: 100px;
+        text-align: right;
+      }
+
+      .cols li.col2{
+        width: 350px;
+      }
+
+      .cols li.col2 input.hp{
+        width: 35px;
+      }
+
+      #intro{
+        vertical-align: top;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <h3>가입 양식</h3>
+    <form class="" action="index.html" method="post">
+      <ul id="mem_form">
+        <li>
+          <ul class="cols">
+            <li class="col1">아이디 :</li>
+            <li class="col2"><input type="text" name="" value=""></li>
+          </ul>
+        </li>
+
+        <li>
+          <ul class="cols">
+            <li class="col1">비밀번호 :</li>
+            <li class="col2"><input type="text" name="" value=""></li>
+          </ul>
+        </li>
+
+        <li>
+          <ul class="cols">
+            <li class="col1">비밀번호 확인 :</li>
+            <li class="col2"><input type="text" name="" value=""></li>
+          </ul>
+        </li>
+
+        <li>
+          <ul class="cols">
+            <li class="col1">이름 :</li>
+            <li><input type="text" name="" value=""></li>
+          </ul>
+        </li>
+
+        <li>
+          <ul class="cols">
+            <li class="col1">성별 :</li>
+            <li class="col2"><input type="radio" name="sex" value="">여성
+              &nbsp;&nbsp;<input type="radio" name="sex" value="">남성
+          </ul>
+        </li>
+
+        <li>
+          <ul class="cols">
+            <li class="col1">휴대전화 :</li>
+            <li class="col2">
+              <select class="" name="">
+                <option value="">010</option>
+                <option value="">011</option>
+                <option value="">017</option>
+              </select> -
+              <input type="text" class="hp" value=""> - <input type="text" class="hp" value="">
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <ul class="cols">
+            <li class="col1">이메일 :</li>
+            <li class="col2"><input type="text" name="" value="">@
+              <select id="email2" name="">
+                <option value="">선택</option>
+                <option value="">naver.com</option>
+                <option value="">hanmail.net</option>
+                <option value="">gmail.com</option>
+              </select>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <ul class="cols">
+            <li class="col1">취미 :</li>
+            <li class="col2">
+              <input type="checkbox" name="hobby1" value="">음악감상
+              <input type="checkbox" name="hobby2" value="">독서
+              <input type="checkbox" name="hobby3" value="">등산
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <ul class="cols">
+            <li class="col1">자기소개 :</li>
+            <li class="col2">
+              <textarea name="name" rows="5" cols="35"></textarea>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <ul class="cols">
+            <li class="col1">파일 첨부 :</li>
+            <li class="col2">
+              <input type="file" name="" value="">* 2MB까지 가능
+            </li>
+          </ul>
+        </li>
+
+      </ul>
+    </form>
+  </body>
+</html>
