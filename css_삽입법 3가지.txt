@@ -1,0 +1,6 @@
+1. head안
+    1) <style> </style>안에 넣기
+    2) 스타일 시트 별도 작성 <link> 태그나 @import 이용
+
+2. body안
+    1) style 속성에 스타일 시트 작성
