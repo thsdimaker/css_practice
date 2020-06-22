@@ -1,6 +1,8 @@
 1. head안
     1) <style> </style>안에 넣기
     2) 스타일 시트 별도 작성 <link> 태그나 @import 이용
+        link - 파일 안에 있는 파일 임폴트
+        @import - 서버 url에 있는 파일 임폴트
 
 2. body안
     1) style 속성에 스타일 시트 작성
